@@ -1,0 +1,21 @@
+.calculator__form {
+  padding: 20px 20px;
+  border: 2px solid #000;
+  border-radius: 12px;
+  background: radial-gradient(#454545 5%, #212121 70%);
+
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+  width: 360px;
+  text-align: center;
+}
+
+.title {
+  width: 100%;
+  padding-top: 8px;
+  text-align: center;
+  color: #fff;
+}
