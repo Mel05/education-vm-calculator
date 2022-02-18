@@ -12,6 +12,10 @@ const todosService = {
     })
     return data
   },
+  addTask: async ({ title, completed }) => {
+    const data = await httpService.post(todosEndpoint, { title, completed })
+    return data
+  },
 }
 
 export default todosService
